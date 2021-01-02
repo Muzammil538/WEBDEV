@@ -1,0 +1,67 @@
+*{
+    padding:0;
+    margin: 0;
+}
+header{
+    background-color: whitesmoke;
+    background-attachment: fixed;
+    background-position: fixed;
+}
+header > h1{
+    color: aqua;
+    text-align: center;
+    /*border: 1px solid black;*/
+    padding: 0px 10px 0px 10px;
+    text-decoration-line: underline;
+    background-attachment: fixed;
+    background-position: fixed;
+}
+nav{
+    background-color: black;
+    padding: 5px;
+
+}
+nav > a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    /* margin: 5px; */
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+
+}
+nav > a.active, nav>a:hover{
+    background-color:royalblue;
+    color: cornsilk;
+}
+
+main{
+    padding: 5px;
+}
+.Img img{
+    height: 100vh;
+    width: 100ch;
+}
+.About {
+    background-color: rgba(0, 0, 0, 0.418);
+}
+.About > p{
+    opacity: rgba(0,0,0.5), rgba(65,0.4,1.9);
+    text-align: center;
+    color: white;
+}
+.About > h2{
+    text-align: center;
+    color: cornflowerblue;
+
+}
+.Home > p{
+    margin: 100px 120px 100px 120px;
+    text-align: justify;
+    background-color: floralwhite;
+}
+
+
+
+
